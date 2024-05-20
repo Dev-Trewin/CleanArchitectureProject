@@ -15,5 +15,7 @@ namespace MyApp.Application.UseCases
 
             return await _userRepository.CreateUserAsync (user);
         }
+
+       
     }
 }
